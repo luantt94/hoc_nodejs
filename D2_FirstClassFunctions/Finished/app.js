@@ -6,7 +6,7 @@ greet();
 
 // functions are first-class
 function logGreeting(fn) {
-	fn();
+	fn(); 
 }
 logGreeting(greet);
 
